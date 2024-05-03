@@ -24,3 +24,29 @@ a{
     color: black;
 }
 
+section{
+    padding: 45px 0 40px;
+}
+textarea{
+    resize: none;
+}
+
+.form-col-6{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+.form-col-12{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
