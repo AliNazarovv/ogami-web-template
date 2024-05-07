@@ -4,9 +4,12 @@
     display: flex;
     justify-content: space-between;
 
-   
 }
-.header-top{
+
+
+.header-top,
+footer
+{
     background: #f5f5f5;
     
 }
@@ -349,4 +352,133 @@ justify-content: space-between;
 .contact-item i{
     font-size: 36px;
     color: #7fad39;
+}
+
+.contact-form button{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 30px 12px;
+    background: #7fad39;
+    width: 14pc;
+    border: none;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+
+.form-row .col{
+    flex: 0 0 50%;
+}
+
+.subcribe button{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 30px 12px;
+    background: #7fad39;
+   
+    border: none;
+}
+
+.text-justify{
+    text-align: justify;
+
+}
+
+.footer-top .social a{
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #404040;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    background: #ffffff;
+    margin-right: 10px;
+}
+
+footer{
+    background: #F3F6FA;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+
+.footer-copyright{
+    border-top: 1px solid #7fad39;
+
+
+}
+
+
+.blog-sidebar-search{
+    position: relative;
+}
+
+.blog-sidebar-search form input{
+    margin-top: 180px;
+    width: 25pc;
+    height: 46px;
+    font-size: 16px;
+    color: #6f6f6f;
+    padding-left: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.blog-sidebar-search button{
+    border: none;
+    outline: none;
+    border-style: none;
+    display: flex;
+    padding: 13px 30px 12px;
+    margin-right: 20px;
+    position: absolute;
+    right: -1pc;
+    top: 11.5pc;
+    background: none;
+
+
+}
+
+.footer-copyright{
+    border-top: 1px solid #ebebeb;
+    padding: 16px 0;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer-copyright-text{
+    font-size: 14px;
+    color: #1c1c1c;
+    float: left;
+    line-height: 25px;
+  
+}
+
+.footer-copyright-text a{
+    color: blue;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.footer-copyright-payment{
+    float: right;
+}
+
+.float-right{
+    float: right;
 }

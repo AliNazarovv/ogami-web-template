@@ -50,3 +50,27 @@ textarea{
 .w-50{
     width: 50%;
 }
+
+.form-control{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: #6f6f6f;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+}
+
+textarea.form-control{
+    min-height: 160px;
+}
+.form-row .col{
+    flex: 0 0 50%;
+
+}
+
+.form-row .col:not(:last-child){
+    padding-right: 10px;
+}
+
