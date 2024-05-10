@@ -147,26 +147,47 @@ span {
 
 /* Yuxardida yazilann kodlar side hissesi ucun yazilib */
 
+.blog-col6 {
+    flex: 0 0 50%;
+    max-width: 50%;
 
-.row {
-    display: -ms-flexbox;
+}
+
+
+.row2 {
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+
+}
+
+.blog-item{
+    margin-top: 60px;
+}
+
+.blog-item-text h5 {
+    margin-top: 8px;
+}
+
+.blog-item-text p {
+    margin-top: -20px;
 }
 
 .blog-item {
-    margin-bottom: 60px;
+
+    margin-bottom: 62px;
     margin-left: 60px;
 }
 
 .blog-col6 {
     width: 360;
     height: 258.8;
-    margin: 130px 400px 0 0;
+    margin: 60px 400px 0 0;
+
 }
+
+.blog-col6 .blog-item {}
 
 .blog-item-text {
     padding-top: 25px;
@@ -183,16 +204,18 @@ span {
 }
 
 .blog-item-text .blog-btn {
-
+    height: 40px;
     position: absolute;
     font-size: 14px;
     color: #1c1c1c;
     text-transform: uppercase;
     letter-spacing: 1px;
     border: 1px solid #b2b2b2;
-    padding: 14px 20px 12px;
+    padding: 1px 20px 12px;
     border-radius: 25px
+    
 }
+
 /* ------------------------ */
 .blog-item-text .blog-btn span {
     position: relative;
@@ -200,7 +223,7 @@ span {
     margin-left: 5px;
 }
 
-.arrow-right{
+.arrow-right {
     display: inline-flex;
 }
 
@@ -218,4 +241,38 @@ span {
 
     margin: 10px;
 
+}
+
+.blog-pagination{
+    padding-top: 20px;
+    position: relative;
+}
+
+.blog-pagination::before{
+    position: absolute;
+    left: 0;
+    height: 1px;
+    width: 51.5pc;
+    background: #000000;
+    opacity: 0.1;
+    content: "";
+}
+
+.blog-pagination a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b2b2b2;
+    font-size: 14px;
+    color: #b2b2b2;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 16px;
+    margin-top: 20px;
+    transition: all, 0.3s;
+}
+
+footer{
+    margin-top: 7pc;
 }
